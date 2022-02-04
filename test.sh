@@ -13,7 +13,7 @@ pip install git+git://github.com/openai/gym#egg=gym[mujoco]
 python collect.py --outprefix=mujoco
 
 pip uninstall -y gym
-pip install git+git://github.com/ikostrikov/gym#egg=gym[mujoco]
+pip install git+git://github.com/rodrigodelazcano/gym#egg=gym[mujoco]
 python collect.py --outprefix=dmc
 
 python compare.py
